@@ -76,19 +76,19 @@ ul.list-item li a {
 .nav-btn:hover {
     background: #00FF88;
     cursor: pointer;
-   
+
 }
 
 .hreo-btn-1:hover {
     background: #00FF88;
     cursor: pointer;
-   
+
 }
 
 .hreo-btn-2:hover {
     background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     cursor: pointer;
-   
+
 }
 
 .nav-btn,
@@ -130,6 +130,7 @@ ul.list-item li a {
     margin: 0 auto;
     position: relative;
 }
+
 .new {
     padding: 10px 16px;
     background-color: #00FF88;
@@ -183,14 +184,16 @@ span.hreo-btn-1-icon {
     line-height: 10px;
     margin: 0 4px;
 }
+
 .hreo-btn-1 {
-    
+
     background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     border: none;
     border-radius: 28px;
     color: #FFFFFF;
     font-size: 16px;
 }
+
 .hreo-btn-2 {
     padding: 7px 13px;
     border: 1px solid #00FF88;
