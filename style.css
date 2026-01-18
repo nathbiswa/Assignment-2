@@ -63,7 +63,7 @@ ul.list-item {
 
 #wave {
     background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -201,4 +201,39 @@ span.hreo-btn-1-icon {
     font-size: 16px;
     color: #00FF88;
     transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    .nav-logo {
+        margin-left: 20px;
+    }
+
+    .nav-hambar {
+        margin-right: 45px;
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
 }
