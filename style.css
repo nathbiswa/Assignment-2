@@ -630,4 +630,8 @@ ul.socila-item li img {
     .host-icon {
         justify-content: center;
     }
+
+    .footer-content {
+        padding: 35px;
+    }
 }
