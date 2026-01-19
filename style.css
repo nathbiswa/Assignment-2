@@ -235,5 +235,9 @@ span.hreo-btn-1-icon {
     .nav-btn {
         display: none;
     }
+        .hero-wrap {
+           width: 100%;
+    
+        }
 
 }
