@@ -208,7 +208,7 @@ span.hreo-btn-1-icon {
 /* About section */
 
 .about-section{
-    /* background-color: #1A0B2E; */
+    background-color: #1A0B2E;
 }
 .about-text.text-center {
     width: 670px;
@@ -217,21 +217,30 @@ span.hreo-btn-1-icon {
 .about-text h1 {
     padding: 20px 0;
     font-size: 3rem;
-    color: #121111;
+    color: #FFFFFF;
 }
 .about-text p {
     font-size: 0.8rem;
     font-weight: 300;
     margin-bottom: 20px;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
-.about-rating{
-    justify-content: space-between;
-    align-items: center;
+.about-rating {
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 1.15rem;
 }
-
-
+.about-rating-item h1 {
+    color: #00FF88;
+    font-size: 3rem;
+    margin-bottom: 1.25rem;
+}
+.about-rating-item p {
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
 
 
 
