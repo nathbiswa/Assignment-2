@@ -36,6 +36,7 @@ li {
 .text-center {
     text-align: center;
 }
+
 /* section{
 margin: 70px 0px;
 } */
@@ -207,18 +208,22 @@ span.hreo-btn-1-icon {
 
 /* About section */
 
-.about-section{
+.about-section {
     background-color: #1A0B2E;
+    height: 480px;
 }
+
 .about-text.text-center {
     width: 670px;
     margin: 0 auto;
 }
+
 .about-text h1 {
     padding: 20px 0;
     font-size: 3rem;
     color: #FFFFFF;
 }
+
 .about-text p {
     font-size: 0.8rem;
     font-weight: 300;
@@ -230,21 +235,107 @@ span.hreo-btn-1-icon {
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     gap: 1.15rem;
+    margin: 120px 0px;
 }
+
 .about-rating-item h1 {
     color: #00FF88;
     font-size: 3rem;
     margin-bottom: 1.25rem;
 }
+
 .about-rating-item p {
     font-weight: 200;
     font-size: 0.8rem;
     color: #FFFFFF;
 }
 
+/* Why choose section */
 
+.choose-section {
+    background-color: #230E3D;
+    height: 800px;
+}
+.choose-heading h1 {
+    text-align: center;
+    padding: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.choose-item {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 180px);
+    gap: 20px;
 
+}
 
+.choose-list {
+    width: 100%;
+    height: 100%;
+    background-color: #351165;
+    border-radius: 20px;
+}
+
+.grid-horizental {
+    grid-column: span 2;
+}
+
+.grid-vertical {
+    grid-row: span 2;
+}
+
+.chose-1 .icon img {
+    padding: 38px;
+    width: 33px;
+}
+
+.chose-1 h1 {
+    padding: 27px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-bottom: -32px;
+}
+
+.chose-1 p {
+    padding: 28px;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.chose-2 .icon img {
+    padding: 26px;
+    width: 30px;
+}
+
+.chose-2 h1 {
+    margin-left: 24px;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.chose-2 p {
+    margin: 11px 24px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
+
+.chose-3 .icon img {
+    padding: 24px;
+    width: 30px;
+}
+
+.chose-3 h1 {
+    margin-left: 24px;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+.chose-3 p {
+    margin: 11px 24px;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+}
 
 
 
@@ -273,5 +364,15 @@ span.hreo-btn-1-icon {
 
     .hero-wrap {
         width: 350px;
+    }
+
+
+    /* about section */
+    .about-rating {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-text.text-center {
+        width: 100%;
     }
 }
