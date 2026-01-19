@@ -445,6 +445,79 @@ span.minute {
     line-height: 24px;
 }
 
+/* ost-icon */
+.host-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+
+.host-icon-item img {
+    border: 1px solid #3b2b50;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 3rem;
+}
+
+/* footer-section */
+
+.footer-section {
+    background-image: url(./assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.footer-content {
+    padding: 120px;
+}
+
+.footer-content {
+    padding: 120px;
+    text-align: center;
+}
+
+ul.socila-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+span.tech-2 {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+#wave-2 {
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+.footer-heading {
+    margin-bottom: 2rem;
+}
+ul.socila-item li {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+ul.socila-item li img {
+    width: 24px;
+    height: 24px;
+}
+.footer-content h2 {
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+}
 
 
 @media screen and (max-width:576px) {
@@ -520,15 +593,20 @@ span.minute {
     /* Feature host section */
     .feature-host-card {
         flex-direction: column;
-        height: 730px;
+        height: auto;
     }
 
     .host-man {
         width: 90%;
         margin-left: 0;
+        padding-top: 20px;
     }
 
     .host-content {
         text-align: center;
+    }
+
+    .host-icon {
+        justify-content: center;
     }
 }
