@@ -339,6 +339,65 @@ span.hreo-btn-1-icon {
     font-size: 0.8rem;
 }
 
+/* Feature Section */
+.feature-section {
+    height: 800px;
+    background-color: #1A0B2E;
+}
+
+.feature-episod-heading-ifram h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 125px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.ifram-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 200px;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.ifram-wrap {
+    border-radius: 10px;
+    background-color: #250D44;
+}
+
+.video iframe {
+    border-radius: 10px;
+}
+
+.ifram-wrap h2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 24px 24px 12px 24px;
+}
+
+.ifram-wrap p {
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    line-height: 1.5rem;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+}
+
+span.timer-icon img {
+    padding: 7px;
+    width: 20px;
+}
+
+span.minute {
+    color: #FFFFFF;
+}
+
+
 
 
 @media screen and (max-width:576px) {
@@ -382,13 +441,16 @@ span.hreo-btn-1-icon {
     .about-section {
         height: 550px;
     }
+
     /* Choose-section */
-.choose-section {
-    height: 1250px;
-}
-    .choose-heading h1 {
-        font-size: 2rem;
+    .choose-section {
+        height: 1250px;
     }
+
+    .choose-heading h1 {
+        font-size: 1.8rem;
+    }
+
     .choose-item {
         grid-template-columns: 1fr;
         gap: 10px;
