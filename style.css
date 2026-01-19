@@ -36,7 +36,9 @@ li {
 .text-center {
     text-align: center;
 }
-
+/* section{
+margin: 70px 0px;
+} */
 /* header section */
 .header-section {
     background-color: #1A0B2E;
@@ -203,11 +205,31 @@ span.hreo-btn-1-icon {
     transition: 1s;
 }
 
+/* About section */
 
+.about-section{
+    /* background-color: #1A0B2E; */
+}
+.about-text.text-center {
+    width: 670px;
+    margin: 0 auto;
+}
+.about-text h1 {
+    padding: 20px 0;
+    font-size: 3rem;
+    color: #121111;
+}
+.about-text p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    /* color: #FFFFFF; */
+}
 
-
-
-
+.about-rating{
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -235,9 +257,12 @@ span.hreo-btn-1-icon {
     .nav-btn {
         display: none;
     }
-        .hero-wrap {
-           width: 100%;
-    
-        }
 
+    .header-section {
+        overflow: hidden;
+    }
+
+    .hero-wrap {
+        width: 350px;
+    }
 }
