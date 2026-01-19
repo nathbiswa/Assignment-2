@@ -341,7 +341,7 @@ span.hreo-btn-1-icon {
 
 /* Feature Section */
 .feature-section {
-    height: 800px;
+    height: 1270px;
     background-color: #1A0B2E;
 }
 
@@ -397,6 +397,53 @@ span.minute {
     color: #FFFFFF;
 }
 
+/* feature-host */
+
+.feature-host {
+    margin-top: 40px;
+}
+
+
+.feature-host-heading h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.feature-host-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #533C72;
+    border-radius: 20px;
+    gap: 20px;
+    height: 340px;
+}
+
+.host-man img {
+    width: 100%;
+}
+
+.host-man {
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.host-content h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 16px 0px;
+}
+
+.host-content p {
+    color: #FFFFFF;
+    padding: 4px;
+    font-size: 1rem;
+    line-height: 24px;
+}
 
 
 
@@ -454,5 +501,34 @@ span.minute {
     .choose-item {
         grid-template-columns: 1fr;
         gap: 10px;
+    }
+
+    /* Feature section */
+    .ifram-item {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .video iframe {
+        width: 100%;
+    }
+
+    .feature-section {
+        height: auto;
+    }
+
+    /* Feature host section */
+    .feature-host-card {
+        flex-direction: column;
+        height: 730px;
+    }
+
+    .host-man {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .host-content {
+        text-align: center;
     }
 }
