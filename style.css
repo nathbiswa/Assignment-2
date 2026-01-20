@@ -198,6 +198,7 @@ span.hreo-btn-1-icon {
 .hreo-btn-2:hover {
     background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     cursor: pointer;
+    border: none;
 
 }
 
@@ -363,7 +364,7 @@ span.hreo-btn-1-icon {
 .ifram-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr) 200px;
-    gap: 30px;
+    gap: 10px;
     margin-top: 40px;
 }
 
@@ -536,10 +537,6 @@ ul.socila-item li img {
         width: 340px;
     }
 
-    .ifram-item {
-        margin-left: 50px;
-    }
-
 }
 
 @media screen and (max-width:992px) {
@@ -653,6 +650,10 @@ ul.socila-item li img {
     }
 
     ul.socila-item {
-        gap: 6px;
+        gap: 10px;
+        width: 50%;
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
+
 }
