@@ -651,7 +651,7 @@ ul.socila-item li img {
 
     ul.socila-item {
         gap: 10px;
-        width: 50%;
+        width: 65%;
         flex-wrap: wrap;
         margin: 0 auto;
     }
