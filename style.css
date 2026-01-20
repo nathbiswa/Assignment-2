@@ -193,12 +193,14 @@ span.hreo-btn-1-icon {
     color: #FFFFFF;
     font-size: 16px;
 }
+
 /* Hover */
 .hreo-btn-2:hover {
     background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     cursor: pointer;
 
 }
+
 .hreo-btn-2 {
     padding: 7px 13px;
     border: 1px solid #00FF88;
@@ -638,5 +640,9 @@ ul.socila-item li img {
 
     .footer-content {
         padding: 35px;
+    }
+
+    ul.socila-item {
+        gap: 10px;
     }
 }
