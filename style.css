@@ -530,7 +530,17 @@ ul.socila-item li img {
     font-weight: 400;
 }
 
+@media screen and (max-width:1170px) {
 
+    .video iframe {
+        width: 340px;
+    }
+
+    .ifram-item {
+        margin-left: 50px;
+    }
+
+}
 
 @media screen and (max-width:992px) {
 
