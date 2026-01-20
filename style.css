@@ -88,12 +88,6 @@ ul.list-item li a {
 
 }
 
-.hreo-btn-2:hover {
-    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
-    cursor: pointer;
-
-}
-
 .nav-btn,
 .hreo-btn-1 {
     width: 110px;
@@ -103,6 +97,10 @@ ul.list-item li a {
     border-radius: 28px;
     color: #FFFFFF;
     font-size: 16px;
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 /* hero-section */
@@ -173,7 +171,6 @@ ul.list-item li a {
     width: 280px;
     align-items: center;
     margin: 0 auto;
-    transition: 2s;
 }
 
 div#herobtn-icon {
@@ -196,14 +193,22 @@ span.hreo-btn-1-icon {
     color: #FFFFFF;
     font-size: 16px;
 }
+/* Hover */
+.hreo-btn-2:hover {
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    cursor: pointer;
 
+}
 .hreo-btn-2 {
     padding: 7px 13px;
     border: 1px solid #00FF88;
     border-radius: 30px;
     font-size: 16px;
     color: #00FF88;
-    transition: 1s;
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease ease-in-out;
+    transition-delay: 0s;
 }
 
 /* About section */
