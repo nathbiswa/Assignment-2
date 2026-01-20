@@ -650,8 +650,8 @@ ul.socila-item li img {
     }
 
     ul.socila-item {
-        gap: 5px;
-        width: 70%;
+        gap: 4px;
+        width: 67%;
         flex-wrap: wrap;
         margin: 0 auto;
     }
